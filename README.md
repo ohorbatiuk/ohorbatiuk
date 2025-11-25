@@ -15,59 +15,65 @@ gitGraph
   branch IDE
   commit id: "Notepad++"
   checkout main
-  branch Others
+  branch Misc
   commit id: "HTML"
-  commit id: "HTA" type: REVERSE
+  commit id: "HTA"
   commit id: "CSS"
   checkout main
   branch Languages
   commit id: "JavaScript"
-  commit id: "Turbo Pascal" type: REVERSE
-  commit id: "C++" type: REVERSE
+  commit id: "Turbo Pascal"
+  commit id: "C++"
   checkout main
   commit id: "University"
   checkout Languages
-  commit id: "Delphi" type: REVERSE
-  commit id: "Assembler" type: REVERSE
+  commit id: "Delphi"
+  commit id: "Assembler"
   checkout main
   branch Databases
-  commit id: "MSSQL" type: REVERSE
+  commit id: "MSSQL"
   checkout Languages
   commit id: "PHP"
   checkout Databases
   commit id: "MySQL"
   checkout main
-  commit id: "Job"
-  checkout Others
-  commit id: "Subversion" type: REVERSE
-  checkout IDE
-  commit id: "Zend Studio" type: REVERSE
-  checkout main
-  branch CMS-n-CMF
-  commit id: "Drupal"
-  checkout IDE
-  commit id: "Sublime Text" type: REVERSE
-  checkout Others
-  commit id: "Git"
-  checkout main
   branch DevOps
-  commit id: "Vagrant" type: REVERSE
-  checkout Others
-  commit id: "LESS" type: REVERSE
+  commit id: "WAMP"
+  checkout main
+  commit id: "Job"
+  checkout Misc
+  commit id: "Subversion"
+  checkout IDE
+  commit id: "Zend Studio"
+  checkout main
+  branch Frameworks
+  commit id: "Drupal"
+  checkout DevOps
+  commit id: "LAMP"
+  checkout IDE
+  commit id: "Sublime Text"
+  checkout Misc
+  commit id: "Git"
+  checkout DevOps
+  commit id: "Vagrant"
+  checkout Misc
+  commit id: "LESS"
   checkout IDE
   commit id: "PhpStorm"
-  checkout Others
+  checkout Misc
   commit id: "SASS"
   commit id: "jQuery"
   checkout DevOps
   commit id: "Docker"
-  checkout Others
+  checkout Misc
   commit id: "Twig"
   checkout Databases
   commit id: "MariaDB"
   checkout main
   branch QA
   commit id: "Behat"
+  checkout DevOps
+  commit id: "DDEV"
   checkout IDE
   commit id: "VS Code"
   checkout Languages
@@ -76,7 +82,7 @@ gitGraph
   commit id: "SQLite"
   commit id: "PostgreSQL"
   commit id: "MongoDB"
-  checkout CMS-n-CMF
+  checkout Frameworks
   commit id: "Fast API"
   commit id: "Django"
   checkout QA
